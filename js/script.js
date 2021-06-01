@@ -14,11 +14,11 @@ function doMathClicked () {
 	var counter = 0
 
 
-	if (userGuess < actualNumber) {
+	if (userGuess > actualNumber) {
 			document.getElementById('answer').innerHTML = userGuess + "is too high"
 	} else if (userGuess < actualNumber) {
 			document.getElementById('answer').innerHTML = userGuess + "is too low"
-	} else {
+	} else if (userGuess == actualNumber) {
 		document.getElementById('answer').innerHTML = "Congrats! You got it right! The hidden number is " + actualNumber
 	}
 }
