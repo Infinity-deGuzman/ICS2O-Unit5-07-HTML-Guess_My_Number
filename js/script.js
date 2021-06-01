@@ -10,7 +10,7 @@ function doMathClicked () {
   // This code will let you guess a number
 
   const userGuess = parseInt(document.getElementById('user-guess').value)
-	const actualNumber = Math.floor(Math.random() * 9)  // returns a random integer from 0 to 9
+	const actualNumber = Math.floor(Math.random() * 10)  // returns a random integer from 0 to 9
 	var counter = 0
 
 
