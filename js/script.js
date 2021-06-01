@@ -19,6 +19,6 @@ function doMathClicked () {
 	} else if (userGuess < actualNumber) {
 			document.getElementById('answer').innerHTML = userGuess + "is too low"
 	} else {
-		document.getElementById('answer').innerHTML = "Congrats! You got it right! The hidden number is " + answer
+		document.getElementById('answer').innerHTML = "Congrats! You got it right! The hidden number is " + actualNumber
 	}
 }
