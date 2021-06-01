@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T03:37:12.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qzuuXhAEdS0BxTl8edY8" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-01T04:13:21.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="s7yQa7p6I45VpJwQZ-JM" version="14.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
         <mxCell id="LG355ashFJsTO5BKu2-c-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LG355ashFJsTO5BKu2-c-3" target="LG355ashFJsTO5BKu2-c-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LG355ashFJsTO5BKu2-c-3" value="While&lt;br&gt;userGuess&lt;br&gt;!= answer" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="350" y="250" width="100" height="100" as="geometry" />
+        <mxCell id="LG355ashFJsTO5BKu2-c-3" value="While&lt;br&gt;userGuess&lt;br&gt;!= answer &amp;amp;&amp;amp; counter &amp;lt; 10" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="342.5" y="247.5" width="115" height="125" as="geometry" />
         </mxCell>
         <mxCell id="LG355ashFJsTO5BKu2-c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.451;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LG355ashFJsTO5BKu2-c-5" target="LG355ashFJsTO5BKu2-c-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LG355ashFJsTO5BKu2-c-9" value="Print(&quot;Congrats!&lt;br&gt;You got it right!&lt;br&gt;The hidden number&lt;br&gt;is answer&quot;)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="500" y="265" width="150" height="70" as="geometry" />
+          <mxGeometry x="500" y="275" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LG355ashFJsTO5BKu2-c-11" value="False" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="450" y="270" width="40" height="20" as="geometry" />
@@ -60,13 +60,13 @@
             <mxPoint x="240" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LG355ashFJsTO5BKu2-c-16" value="Print(&quot;userGuess&lt;br&gt;is too low&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="LG355ashFJsTO5BKu2-c-16" value="Print(&quot;userGuess&lt;br&gt;is too low&quot;&lt;br&gt;counter++" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="175" y="190" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LG355ashFJsTO5BKu2-c-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LG355ashFJsTO5BKu2-c-18" target="LG355ashFJsTO5BKu2-c-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LG355ashFJsTO5BKu2-c-18" value="Print(&quot;userGuess&lt;br&gt;is too high&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="LG355ashFJsTO5BKu2-c-18" value="Print(&quot;userGuess&lt;br&gt;is too high&quot;&lt;br&gt;counter++" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="190" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LG355ashFJsTO5BKu2-c-29" value="Done" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
