@@ -14,9 +14,9 @@ function doMathClicked () {
 
 
 	if (userGuess > actualNumber) {
-			document.getElementById('answer').innerHTML = userGuess + "is too high"
+			document.getElementById('answer').innerHTML = userGuess + " is too high"
 	} else if (userGuess < actualNumber) {
-			document.getElementById('answer').innerHTML = userGuess + "is too low"
+			document.getElementById('answer').innerHTML = userGuess + " is too low"
 	} else if (userGuess == actualNumber) {
 		document.getElementById('answer').innerHTML = "Congrats! You got it right! The hidden number is " + actualNumber
 	}
