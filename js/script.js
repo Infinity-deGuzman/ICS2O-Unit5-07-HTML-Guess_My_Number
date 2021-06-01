@@ -11,7 +11,6 @@ function doMathClicked () {
 
   const userGuess = parseInt(document.getElementById('user-guess').value)
 	var actualNumber = Math.floor(Math.random() * 10)  // returns a random integer from 0 to 9
-	var counter = 0
 
 
 	if (userGuess > actualNumber) {
